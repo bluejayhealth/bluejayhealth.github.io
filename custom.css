@@ -115,7 +115,11 @@ index
 	margin:0 auto;
 }
 
+.btn-pt {
+	overflow: hidden;
+}
 .arrow:before {
+	position: relative;
 	content: url(arrow.png);
 }
 
@@ -149,7 +153,7 @@ index
 }
 
 .ppb-1:before {
-	left: 57%;
+	left: 65%;
 	opacity: 0;
 	top: 63%;
 }
@@ -185,7 +189,7 @@ index
 }
 
 .tpb-1:before{
-	left: 59%;
+	left: 67%;
 	opacity: 0;
 	top: 63%;
 }
