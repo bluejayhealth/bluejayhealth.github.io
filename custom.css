@@ -32,7 +32,8 @@ Navigation bar
 }
 
 #scheduleDemoBtn:hover, #scheduleDemobtn:active{
-	background-image: linear-gradient(-180deg, #bf5254 0%, #982020 100%);
+	background-image: linear-gradient(-180deg, #d65c5e 0%, #c52626 100%);
+	opacity: 75%;
 	color:#ffffff;
 }
 
