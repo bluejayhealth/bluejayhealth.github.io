@@ -3412,6 +3412,7 @@ tbody.collapse.in {
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   background-clip: padding-box;
+  transition: all 0.5s;
 }
 .dropdown-menu.pull-right {
   right: 0;

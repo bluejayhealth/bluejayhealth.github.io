@@ -745,6 +745,8 @@ Faqs page
 	padding: 5px 20px;
     color: #333333;
     font-weight: 400;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
 }
 .faq-dropdown>li>a{
 	display: inline;
