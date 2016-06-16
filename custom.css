@@ -545,7 +545,11 @@ Therapist page
 	padding: 12px 18px;
 	font-size: 18.5px;
 }
-
+.gif-ipad-therapist {
+	position: absolute;
+	top: 197px;
+	left: 68px;
+}
 /*********************************************
 
 patient page
@@ -571,6 +575,18 @@ patient page
 #patient-demo img{
 /*		height:400px;
 		width:auto;*/
+}
+.gif-patient1{
+	position: absolute; 
+	top:30px; 
+	left: 100px;
+}
+@media screen and (max-width : 992px) {
+	.gif-patient1 {
+		position: absolute; 
+		top:30px; 
+		left: 150px;
+	}
 }
 /*********************************************
 
@@ -826,7 +842,11 @@ Faqs page
 	position: relative;
 	top: 10px;
 	right:  -90%;
-	color:#F9FF06;
+	color:#ffffff;
+	font-size: 150%;
+}
+.formholderclose:hover {
+	text-decoration: none;
 }
 
 
