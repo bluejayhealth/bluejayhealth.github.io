@@ -1019,6 +1019,15 @@ p{
    background-color:rgba(0,0,0,0.5);   
 }
 
+/* FADEIN ON SCROLL */
+.fadeInBlock {
+    opacity:0;
+}
+
+.fadeInBlock2 {
+    opacity:0;
+}
+
 /*==========  Mobile First Method  ==========*/
 
     /* Custom, iPhone Retina */ 

@@ -1,9 +1,41 @@
-shots = $(".shot").fadeTo(0, 0.05);
+$(function() {
+    $(window).scroll( function(){
+    
+       
+        $('.fadeInBlock').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            bottom_of_window = bottom_of_window - 1300;  
+          
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},1200);
+                    
+            }
+        }); 
+    
+    });
+});
 
-$('.container').scroll(function(d,h) {
-    shots.each(function(i) {
-        a = $(this).offset().top + $(this).height();
-        b = $('#portfolio').scrollTop() + $('.container').height();
-        if (a < b) $(this).fadeTo(500,1);
+$(function() {
+    $(window).scroll( function(){
+    
+       
+        $('.fadeInBlock2').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            bottom_of_window = bottom_of_window - 2300;  
+          
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},1200);
+                    
+            }
+        }); 
+    
     });
 });
