@@ -7,7 +7,7 @@ $(function() {
             var bottom_of_object = $(this).position().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             
-            bottom_of_window = bottom_of_window - 1300;  
+            bottom_of_window = bottom_of_window - 1000;  
           
             if( bottom_of_window > bottom_of_object ){
                 
@@ -28,7 +28,7 @@ $(function() {
             var bottom_of_object = $(this).position().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             
-            bottom_of_window = bottom_of_window - 2300;  
+            bottom_of_window = bottom_of_window - 2000;  
           
             if( bottom_of_window > bottom_of_object ){
                 
