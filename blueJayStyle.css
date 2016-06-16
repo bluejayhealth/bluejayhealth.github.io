@@ -3227,12 +3227,10 @@ fieldset[disabled] .btn-info.active {
 }
 .btn-warning:hover {
   color: #ffffff;
-  background-image: linear-gradient(-180deg, #d0a700 0%, #ae5c11 100%);
-  box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.2);
 }
 .btn-warning:active {
   background-image: linear-gradient(-180deg, #d0a700 0%, #ae5c11 100%);
-  box-shadow: inset 1px 1px 2px 1px rgba(0,0,0,0.2);
+  box-shadow: 1px 2px 4px 3px rgba(0,0,0,0.20);
 }
 .btn-warning.disabled,
 .btn-warning[disabled],
