@@ -580,12 +580,28 @@ patient page
 	position: absolute; 
 	top:30px; 
 	left: 100px;
+	width:auto;
+	margin:0 auto;
+}
+.gif-ipad-patient2 {
+	position: absolute; 
+	top:53px; 
+	left: 395px;
+	width:464px;
+	height: 350px;
 }
 @media screen and (max-width : 992px) {
 	.gif-patient1 {
 		position: absolute; 
 		top:30px; 
 		left: 150px;
+	}
+	.gif-ipad-patient2 {
+	position: absolute; 
+	top:35px; 
+	left: 300px;
+	width:464px;
+	height: 350px;
 	}
 }
 /*********************************************
