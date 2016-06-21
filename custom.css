@@ -579,13 +579,6 @@ patient page
 		width:auto;*/
 }
 
-.gif-iphone-patient1{
-	position: absolute; 
-	top: 11.4%; 
-	left: 22.6%;
-	width: auto;
-	height: auto;
-}
 .gif-ipad-patient2 {
 	position: absolute; 
 	top: 10%; 
@@ -671,7 +664,7 @@ Image Banner
 .img-for-400-banner{
 	max-height:400px;
 	width:auto;
-	margin:0 auto;
+	margin: auto;
 }
 .downloadbtn{
 	height:45px;
