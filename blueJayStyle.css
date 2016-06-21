@@ -3312,10 +3312,11 @@ fieldset[disabled] .btn-link:focus {
   color: #777777;
   text-decoration: none;
 }
-.btn-prim {
-  width: 120px;
-  height: 43px;
-  overflow: hidden;
+.btn-xlg {
+  padding: 10px 15px 10px 5px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 5px;
 }
 .btn-lg,
 .btn-group-lg > .btn {
