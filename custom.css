@@ -547,8 +547,10 @@ Therapist page
 }
 .gif-ipad-therapist {
 	position: absolute;
-	top: 197px;
-	left: 68px;
+	top: 38.2%;
+	left: 5.7%;
+	width: 40%;
+	height: auto;
 }
 /*********************************************
 
@@ -576,6 +578,7 @@ patient page
 /*		height:400px;
 		width:auto;*/
 }
+
 .gif-patient1{
 	position: absolute; 
 	top:30px; 
@@ -585,23 +588,16 @@ patient page
 }
 .gif-ipad-patient2 {
 	position: absolute; 
-	top:53px; 
-	left: 395px;
-	width:464px;
-	height: 350px;
+	top: 10%; 
+	left: 40.5%;
+	width: 49.5%;
+	height: auto;
 }
 @media screen and (max-width : 992px) {
 	.gif-patient1 {
 		position: absolute; 
 		top:30px; 
 		left: 150px;
-	}
-	.gif-ipad-patient2 {
-	position: absolute; 
-	top:35px; 
-	left: 300px;
-	width:464px;
-	height: 350px;
 	}
 }
 /*********************************************
