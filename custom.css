@@ -579,12 +579,12 @@ patient page
 		width:auto;*/
 }
 
-.gif-patient1{
+.gif-iphone-patient1{
 	position: absolute; 
-	top:30px; 
-	left: 100px;
-	width:auto;
-	margin:0 auto;
+	top: 11.4%; 
+	left: 22.6%;
+	width: auto;
+	height: auto;
 }
 .gif-ipad-patient2 {
 	position: absolute; 
@@ -593,12 +593,12 @@ patient page
 	width: 49.5%;
 	height: auto;
 }
-@media screen and (max-width : 992px) {
-	.gif-patient1 {
-		position: absolute; 
-		top:30px; 
-		left: 150px;
-	}
+.gif-iphone-patient2{
+	position: absolute; 
+	top: 39.3%; 
+	left: 23.5%;
+	width: 14.2%;
+	height: auto;
 }
 /*********************************************
 
