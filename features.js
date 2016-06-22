@@ -1,10 +1,10 @@
 if ($(window).width() < 768) {
    var feature1 = 700;
-   var feature2 = 1500
+   var feature2 = 1500;
 }
 else {
-   var feature1 = 1300
-   var feature2 = 2300
+   var feature1 = 1300;
+   var feature2 = 2300;
 }
 
 
