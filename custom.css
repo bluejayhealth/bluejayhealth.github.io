@@ -147,12 +147,12 @@ index
 }
 
 .ppb-1:before {
-	left: 67%;
+	left: 66%;
 	opacity: 0;
 	top: 14%;
-	-webkit-transition: opacity, left.3s;
-	-moz-transition: opacity, left .3s;
-	transition: opacity, left.3s;
+	-webkit-transition: opacity, left.3s ease;
+	-moz-transition: opacity, left .3s ease;
+	transition: opacity, left.3s ease;
 }
 .ppb-1:hover:before {
 	left: 71%;
@@ -183,9 +183,9 @@ index
 	left: 74%;
 	opacity: 0;
 	top: 14%;
-	-webkit-transition: opacity, left.3s;
-	-moz-transition: opacity, left .3s;
-	transition: opacity, left.3s;
+	-webkit-transition: opacity, left.3s ease;
+	-moz-transition: opacity, left .3s ease;
+	transition: opacity, left.3s ease;
 }
 .tpb-1:hover:before {
 	left: 78%;
@@ -529,9 +529,9 @@ Therapist page
 #scheduleDemoBtn_big {
 	padding: 10px 15px;
 	font-size: 18px;
-	-webkit-transition: padding 0.2s;
-	-moz-transition: padding 0.2s;
-	transition: padding 0.2s;
+	-webkit-transition: padding 0.2s ease;
+	-moz-transition: padding 0.2s ease;
+	transition: padding 0.2s ease;
 }
 
 #scheduleDemoBtn_big:hover {
@@ -571,11 +571,18 @@ patient page
 /*		height:400px;
 		width:auto;*/
 }
+.gif-android-patient {
+	position: absolute; 
+	top: 22%; 
+	left: 6.38%;
+	width: 18.5%;
+	height: auto;
+}
 
 .gif-ipad-patient2 {
 	position: absolute; 
-	top: 10%; 
-	left: 40.5%;
+	top: 10.3%; 
+	left: 40.3%;
 	width: 49.5%;
 	height: auto;
 }
@@ -585,6 +592,27 @@ patient page
 	left: 23.5%;
 	width: 14.2%;
 	height: auto;
+}
+.png-iphone {
+	position: absolute; 
+	top: 31.3%; 
+	left: 20.5%;
+	width: 19.9%;
+	height: auto;
+}
+.box-ipad {
+	position: absolute;
+	top: 7%;
+	left: 13.5%;
+	width: 73.5%;
+	height: 85.6%;
+}
+.box-iphone {
+	position: absolute;
+	top: 11.4%;
+	left: 21.6%;
+	width: 57.1%;
+	height: 74%;
 }
 /*********************************************
 
