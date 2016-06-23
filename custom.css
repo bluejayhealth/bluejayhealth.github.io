@@ -108,6 +108,8 @@ index
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
+    background: url(img/index_cover.jpg) no-repeat;
+  	background-size: cover;
 }
 @media only screen and (max-width: 1082px) {
 	#index-cover-image {
