@@ -99,17 +99,24 @@ index
 }
 
 #index-cover-image{
-/* background image-handholding2: */
-	background-image: url("img/index_cover.jpg");
-	background-position-x: 30%;
-	background-position-y: 70%;
- 	background-size: cover;
- 	-webkit-background-size: cover;
- 	-moz-background-size: cover;
- 	-o-background-size: cover;
+	position: fixed;
+	top: 38%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
 }
-
-
+@media only screen and (max-width: 1080px) {
+	#index-cover-image {
+		position: absolute;
+		top: 50%;
+		height: 100%;
+		width: auto;
+	}
+}
 
 .cover-overlap-img{
 	max-height: 450px;
@@ -191,26 +198,7 @@ index
 	left: 78%;
 	opacity: 1;
 }
-.img-lg {
-	width: 100%;
-	height: auto;
-	margin: 10px;
-	-webkit-transition: width, height, 0.3s ease;
-	-moz-transition: width, height, 0.3s ease;
-	transition: width, height, 0.3s ease;
-}
-.img-lg:hover {
-	width: 103%;
-	height: auto;
-	margin: 0px;
-}
-@media only screen and (max-width : 992px) {
-	.img-lg:hover {
-		width: 103%;
-		height: auto;
-		margin: 3.3333px;
-}
-} 
+
 /*-------------------------------*/
 /*    testimonial          */
 /*-------------------------------*/
@@ -793,8 +781,11 @@ Faqs page
 .btn-group, .btn-group a{
 	width:100%;
 	text-align: left;
+	box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
 }
-
+.n, .n:active, .n:focus {
+	box-shadow: none
+}
 .faq-dropdown{
 	position: relative;
 	box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
@@ -943,7 +934,7 @@ Faqs page
 		right:10px;
 		bottom:0px;
 		padding:2px 5px 5px 5px;
-		background-image: linear-gradient(-180deg, #f26b6b 0%, #d8413f 100%);
+		background-image: linear-gradient(-180deg, #f26b6b 0%, #d8413f 100%);		
 		box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.20);
 		font-size: 10px;
 		border-top-left-radius: 20px;
