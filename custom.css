@@ -100,7 +100,7 @@ index
 
 #index-cover-image{
 	position: fixed;
-	top: 38%;
+	top: 39.5%;
     left: 50%;
     min-width: 100%;
     min-height: 100%;
@@ -109,7 +109,7 @@ index
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
 }
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1082px) {
 	#index-cover-image {
 		position: absolute;
 		top: 50%;
