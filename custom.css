@@ -94,7 +94,7 @@ index
 
 .cover{
 	margin-top:40px;
-	min-height: 600px;
+	min-height: 700px;
 	max-height: 1200px;
 }
 
@@ -123,7 +123,7 @@ index
 	 	z-index: -1;
 	}
 }
-@media only screen and (max-width: 1082px) {
+@media only screen and (max-width: 1282px) {
 	#index-cover-image {
 		position: absolute;
 		top: 50%;
@@ -213,6 +213,29 @@ index
 	opacity: 1;
 }
 
+.space {
+	line-height: 180%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.space-x {
+	line-height: 200%;
+}
+.color {
+	color: #47A6DA;
+}
+.padding {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.list {
+	list-style-image: url("img/bullet-point.png");
+}
+
+.tagline {
+	min-height: 450px;
+}
 /*-------------------------------*/
 /*    testimonial          */
 /*-------------------------------*/
@@ -220,6 +243,7 @@ index
 #testimonial {
     padding-top: 50px;
     padding-bottom: 50px;
+    background: #f1f5f6;
 }
 
 
@@ -407,7 +431,9 @@ body { margin: 0; }
   transition: none;
 }
 }
-
+#wecare {
+	background-color: #fafafa;
+}
 
 /*********************************************
 
@@ -520,7 +546,9 @@ about page
 .board-of-advisor .caption-text{
 	color: #999;
 }
-
+#after {
+	padding-bottom: 10px;
+}
 
 /*********************************************
 
@@ -566,12 +594,21 @@ Therapist page
 	position: absolute;
 	top: 6.5%;
 	left: 39.4%;
+	width: 56.5%;
+	height: auto;
 }
 .ipad-cover {
 	position: absolute;
 	top: 31.2%;
 	left: 0%;
 	width: 51.3%;
+	height: auto;
+}
+.iphone-cover {
+	position: absolute;
+	top: 33%;
+	left: 81.3%;
+	width: 21.3%;
 	height: auto;
 }
 /*********************************************
@@ -753,11 +790,12 @@ Image Banner
 	background-position-y: 30%;
  
 }
-#patientLinkBanner2{
+#therapistLinkBanner2{
 	position: relative;
-	background-image: url("img/Jogging_Woman_in_Grass.jpg");
+	background-image: url("img/therapist_image_banner.jpg");
  	background-size: cover;
-
+ 	background-position-x:30%;
+	background-position-y: 30%;
 }
 
 
@@ -1105,6 +1143,9 @@ p{
 
 .fadeInBlock2 {
     opacity:0;
+}
+.fadeInBlock3 {
+	opacity: 0;
 }
 
 

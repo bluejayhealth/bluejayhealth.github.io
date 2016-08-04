@@ -1,10 +1,12 @@
 if ($(window).width() < 768) {
-   var feature1 = 700;
-   var feature2 = 1500;
+   var feature1 = 2600;
+   var feature2 = 1200;
+   var feature3 = 3000;
 }
 else {
-   var feature1 = 1300;
-   var feature2 = 2300;
+   var feature1 = 2000;
+   var feature2 = 1550;
+   var feature3 = 2550;
 }
 
 
@@ -50,3 +52,23 @@ $(function() {
     });
 });
 
+$(function() {
+    $(window).scroll( function(){
+    
+       
+        $('.fadeInBlock3').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            bottom_of_window = bottom_of_window - feature3;  
+          
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},1200);
+                    
+            }
+        }); 
+    
+    });
+});
