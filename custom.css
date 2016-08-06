@@ -6,7 +6,8 @@ Navigation bar
 
 #logoGradient{
 	margin:0;
-	padding:5px;
+	padding: 5px 10px 10px 20px;
+	left: 0px;
 }
 
 #therapistLogInBtn{
@@ -50,7 +51,7 @@ Navigation bar
 
 #navigationbar{
 	/* navBG: */
-	height:52px;
+	height:80px;
 	background: #FFFFFF;
 	border: 1px solid #979797;
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
@@ -97,7 +98,6 @@ index
 	min-height: 600px;
 	max-height: 1200px;
 }
-
 #index-cover-image{
 	position: absolute;
 	top: 50%;
@@ -220,6 +220,9 @@ index
 }
 .space-x {
 	line-height: 200%;
+}
+.letter-space {
+	letter-spacing: 0.5px;
 }
 .color {
 	color: #47A6DA;
@@ -434,7 +437,9 @@ body { margin: 0; }
 #wecare {
 	background-color: #fafafa;
 }
-
+.semibold {
+	font-weight: 500 !important; 
+}
 /*********************************************
 
 about page
@@ -453,7 +458,12 @@ about page
 	background-position-y: 10%;
 }
 
-
+.name {
+	font-weight: 500 !important;
+	font-size: 20 !important;
+	text-align: center;
+	margin-top: 30px;
+}
 .team-member{
 	list-style-type: none;
 	margin: 0px;
@@ -899,33 +909,31 @@ Faqs page
 
 .formholderclass{
 	opacity: 0;
-	overflow-y: scroll;
-	position: fixed;
-	right: 0px;
-	height: 100%;
-	width: 360px;
-	background-color:#47A6DA;
-	color: #fff;
-	z-index: 9999;
+	position: fixed; /* Stay in place */
+    z-index: 10000; /* Sit on top */
+    padding: 5%; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
 	-webkit-transition: opacity 200ms ease-in;
 	-moz-transition: opacity 200ms ease-in;
 	transition: opacity 200ms ease-in;
 	pointer-events: none;
-	padding-left: 10px;
-	padding-right: 10px;
-	box-shadow: -5px 0px 50px #666666;
 	text-decoration: none;
 }
 
 .formholderclose{
-	height: 75px;
-	width: 75px;
+	height: auto;
+	width: auto;
 	z-index: 99999;
 	position: relative;
-	top: 10px;
-	right:  -90%;
-	color:#ffffff;
-	font-size: 150%;
+	top: 5%;
+	right: -93%;
+	color:#000000;
+	font-size: 300%;
 }
 .formholderclose:hover {
 	text-decoration: none;
@@ -937,6 +945,14 @@ Faqs page
 	pointer-events: auto;
 }
 
+.modal-content {
+	background-color:#ffffff;
+	border: none;
+	border-radius: 0;
+	width: 85%;
+	height: 100%;
+	left: 7%;
+}
 .formwrapper{
 	position: static;
 	top: 0px;
@@ -1050,11 +1066,11 @@ p{
 }
 #index-headline{
 	font-size: 50px !important;
-	font-weight: 100 !important;
+	font-weight: 500 !important;
 }
 
 
-
+.nospace {margin-bottom: 0px;}
 .space-before{margin-top:30px;}
 .space-after{margin-bottom:30px;}
 .space-left{margin-left:30px;}
@@ -1085,9 +1101,13 @@ p{
   top: 50%;
   left:0%;
   right:0%;
- -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+ -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+
+.v-center {
+	top: 50%;
 }
 
 .vertical-bottom{
@@ -1219,7 +1239,7 @@ p{
     @media only screen and (max-width : 768px) {
    #index-headline{
 	font-size: 48px !important;
-	font-weight: 100 !important;
+	font-weight: 500 !important;
 	}
 
     p, .cover p, .jobboard p, .jobboard li{
@@ -1231,7 +1251,7 @@ p{
     @media only screen and (max-width : 480px) {
     #index-headline{
 	font-size: 42px !important;
-	font-weight: 100 !important;
+	font-weight: 500 !important;
 	}
       p, .cover p, .jobboard p, .jobboard li{
 	font-weight: 400;
@@ -1242,9 +1262,9 @@ p{
     @media only screen and (max-width : 320px) {
     #index-headline{
 	font-size: 42px !important;
-	font-weight: 100 !important;
+	font-weight: 500 !important;
 	}
     p, .cover p, .jobboard p, .jobboard li{
-	font-weight: 400;
+	font-weight: 100;
 	}
     }
