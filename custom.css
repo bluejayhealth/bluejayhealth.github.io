@@ -559,7 +559,9 @@ about page
 #after {
 	padding-bottom: 10px;
 }
-
+.content-cover {
+	padding: 100px 0px;
+}
 /*********************************************
 
 Therapist page
@@ -923,6 +925,7 @@ Faqs page
 	transition: opacity 200ms ease-in;
 	pointer-events: none;
 	text-decoration: none;
+	overflow: hidden;
 }
 
 .formholderclose{
@@ -952,6 +955,7 @@ Faqs page
 	width: 85%;
 	height: 100%;
 	left: 7%;
+	overflow: hidden;
 }
 .formwrapper{
 	position: static;
