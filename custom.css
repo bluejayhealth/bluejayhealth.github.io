@@ -18,7 +18,11 @@ Navigation bar
 	padding: 13px;
 	border-radius: 6px;
 	line-height: 0px;
-
+}
+@media only screen and (max-width : 768px) {
+	#therapistloginbtn {
+		margin: 5px 60px;
+	}
 }
 
 #scheduleDemoBtn{

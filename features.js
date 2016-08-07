@@ -1,12 +1,12 @@
 if ($(window).width() < 768) {
-   var feature1 = 2600;
-   var feature2 = 1200;
-   var feature3 = 3000;
+   var feature1 = 2300;
+   var feature2 = 1000;
+   var feature3 = 2700;
 }
 else {
-   var feature1 = 2000;
-   var feature2 = 1550;
-   var feature3 = 2550;
+   var feature1 = 1700;
+   var feature2 = 1400;
+   var feature3 = 2400;
 }
 
 
@@ -23,7 +23,7 @@ $(function() {
           
             if( bottom_of_window > bottom_of_object ){
                 
-                $(this).animate({'opacity':'1'},1200);
+                $(this).animate({'opacity':'1'},1000);
                     
             }
         }); 
@@ -44,7 +44,7 @@ $(function() {
           
             if( bottom_of_window > bottom_of_object ){
                 
-                $(this).animate({'opacity':'1'},1200);
+                $(this).animate({'opacity':'1'},1000);
                     
             }
         }); 
@@ -65,7 +65,7 @@ $(function() {
           
             if( bottom_of_window > bottom_of_object ){
                 
-                $(this).animate({'opacity':'1'},1200);
+                $(this).animate({'opacity':'1'},1000);
                     
             }
         }); 
