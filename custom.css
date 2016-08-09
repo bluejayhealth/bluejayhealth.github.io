@@ -98,7 +98,7 @@ index
 *********************************************/
 
 .cover{
-	margin-top:40px;
+	margin-top:80px;
 	min-height: 600px;
 	max-height: 1200px;
 }
@@ -216,7 +216,9 @@ index
 	left: 78%;
 	opacity: 1;
 }
-
+.subtitle {
+	line-height: 130%;
+}
 .space {
 	line-height: 180%;
 	margin-top: 20px;
