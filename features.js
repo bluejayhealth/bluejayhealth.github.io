@@ -4,7 +4,7 @@ if ($(window).width() < 768) {
    var feature3 = 2700;
 }
 else {
-   var feature1 = 700;
+   var feature1 = 1900;
    var feature2 = 1400;
    var feature3 = 2400;
 }
